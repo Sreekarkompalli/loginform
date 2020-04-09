@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Muli|Quicksand:300&display=swap");
+body,
+html {
+    background-color: #383838;
+}
+
+
+
+form{
+    display: grid;
+    justify-content: space-evenly;
+    background-color:rgb(201, 218, 201);
+    width: 500px;
+    height: 580px;
+    position: relative;
+    top: 50px;
+    left: 420px;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font:bold ;
+}
+
+input[type="text"],
+input[type="Password"]{
+    background-color: #383838;
+    color: rgb(252, 252, 252);
+    width: 90%;
+    height: 30px;
+    border: 2px solid rgb(105,105,105);
+    margin: 8px 0;
+    outline: none;
+    padding: 20px;
+    font-size: large;
+    box-sizing: border-box;
+    transition: 0.3s;
+    position: relative;
+    left: 18px;
+
+}
+#text1 input[type="text"],
+#text2 input[type="password"]{
+    padding-left: 80px;
+}
+#text1 input[type="image"] {
+    width: 35px;
+    margin-top: 25px;
+    left: 100px;
+    bottom: 10px;
+    opacity: 0.2;
+    position: relative;
+    bottom: 70px;
+    left: 21px;
+    align-items: center;
+    padding-bottom: 1px;
+}
+#text2 input[type="image"] {
+    width: 20px;
+    height: 30px;
+    margin:25px 0px 0px 7px;
+    background-color: black;
+    position: relative;
+    opacity: 0.2;
+    bottom: 70px;
+    left: 21px;
+}
+#text2 {
+    position: relative;
+    bottom: 40px;
+}
+#bt1,
+#bt2 {
+    width: 80%;
+    height: 60px;
+    border: none;
+    margin: 8px 0;
+    padding: 8px;
+    transition: 0.3s;
+    letter-spacing: 2px;
+    font-size: larger;
+    font-weight: bolder;
+}
+#bt1 {
+    position: relative;
+    bottom: 80px;
+    background-color: rgb(213, 225, 217);
+}
+#bt2 {
+    position: relative;
+    bottom: 25px;
+}
+h1 {
+    font-family: 'Quicksand',sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    left: 120px;
+}
+#bt1,
+#bt2 {
+    position: relative;
+    left: 40px
+}
+#text{
+    font-family: 'Quicksand',sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 150px;
+    bottom: 80px;
+    color: rgb(143, 176, 165) ;
+}
+
+hr {
+    border: 1px solid rgb(116, 151, 141); 
+    background-color:rgb(113, 138, 131);
+    border-radius: 4px;
+    width: 88%;
+    height: 2px;
+    position: relative;
+    bottom: 50px;
+    right: 8px;
+}
+#bt2 {
+    background-color:rgb(30, 204, 155);
+}
